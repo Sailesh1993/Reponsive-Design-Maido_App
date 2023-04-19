@@ -1,0 +1,25 @@
+/* -----------Header----------- */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 3.5em;
+}
+.logo{
+   padding: 10px 25px;
+   font-size: 25px;
+}
+.btn-header{
+    background-color: rgb(111, 183, 111);
+    color: white;
+    font-size: 15px;
+    padding: 8px 14px;
+    margin: 10px 25px; 
+    border-radius: 10px;
+}
