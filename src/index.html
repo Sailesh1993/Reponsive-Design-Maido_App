@@ -1,137 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Maido Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/corben" rel="stylesheet" />
+  </head>
+  <body>
     <header class="header">
+        <div class="logo_wrap">
             <img src="https://maido-dark.fueko.net/content/images/2020/06/maido.svg" alt="logo">
+        </div>
         <nav>
                 <a href="#">Home</a>
-                <a href="#">features</a>
-                <a href="#">Style guide</a>
-                <a href="#">Contact</a>
-                <a href="#">Newsletter</a>
-                <a href="#">Demos</a>
-                <a href="#">Get Theme</a>
-                <a href="#">🔎</a>
+                <a href="#features">features</a>
+                <a href="#Style guide">Style guide</a>
+                <a href="#Contact">Contact</a>
+                <a href="#Newsletter">Newsletter</a>
+                <a href="#Demos">Demos</a>
+                <a href="#Get Theme">Get Theme</a>
+                <a href="#search">🔎</a>
             </nav>
     </header>
-    <main class="container">
-        <section class="section-1">
-            <div class="grid">
-                <div class="item">
-                    <div class="box">
-                           <p>One space , so many possibilities</p>
-                        
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                            <p>Make the open space open to more</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                            <p>A comfortable spot for everyone</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                            <p>An open space for open mind</p>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="box">
-                            <p>Anyone can hold the helm when the sea is calm</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section-2">
-            <div class="section-2-grid">
-                <div class="section-2-grid-item">
-                    <div class="section-2-box">
-                           <p>One space , so many possibilities</p>
-                        
-                    </div>
-                </div>   
-                <div class="section-2-grid-item">
-                    <div class="section-2-box">
-                           <p>The perfect place that helps you get work done in peace</p>
-                        
-                    </div>
-                </div>   
-                <div class="section-2-grid-item">
-                    <div class="section-2-box">
-                           <p>The trick to getting more done is to have the freedom to roam around</p>
-                        
-                    </div>
-                </div>      
-            </div>
-        </section>
-        <section class="section-3">
-            <article>YOU REALLY MUST SEE OUR EARLIER ARTICLES</article>
-            <div class="section-3-grid">
-                <div class="section-3-grid-item">
-                    <div class="section-3-box">
-                        <button>creative</button>
-                        <p>Problems are not stop signs</p>
-                        <article>Lorem ipsum dolor si kjbnkj jknkj kkljnlkjnlkn kjnlknlknl</article>
-                        <article>by Margaret Robertson & Patrica Jenkins</article>
-                    </div>
-                </div>
-                <div class="section-3-grid-item">
-                    <div class="section-3-box">
-                        <div class="btn">
-                            <button>CASE STUDY</button>
-                            <button>CREATIVE</button>
-                            <button>OPEN SPACE</button>
-                        </div>
-                        <p>Quit time is the best time</p>
-                        <article>by Sean Hamilton</article>
-                    </div>
-                </div>
-                <div class="section-3-grid-item">
-                    <div class="section-3-box">
-                        <div class="btn">
-                            <button>CREATIVE</button>
-                            <button>FURNITURE</button>
-                        </div>
-                        <p>Being unique is better than being perfect</p>
-                        <article>by Patrica Jenkins</article>
-                    </div>
-                </div>
-                <div class="section-3-grid-item">
-                    <div class="section-3-box">
-                        <div class="btn">
-                            <button>CASE STUDY</button>
-                            <button>OPEN SPACE</button>
-                        </div>
-                        <p>Anyone an hold the helm when the sea is calm</p>
-                        <article>Lorem ipsum dolor sit amet consectetur adipisicing fuga fugit distinctio. Eaque ?</article>
-                        <article>by Margaret Roberson</article>
-                    </div>
-                </div>
-                <div class="section-3-grid-item">
-                    <div class="section-3-box">
-                        <div class="btn">
-                            <button>PRODUCTIVITY</button>
-                            <button>OPEN SPACE</button>
-                        </div>
-                        <p>change is always happening</p>
-                        <article>Lorem ipsum dolor sit amet consectetur adipisicing fuga fugit distinctio. Eaque ?</article>
-                        <article>by Janet Roberson</article>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="side-description">Thoughts, stories and ideas</div>
+    <main>
+      <section class="side-description">Thoughts, stories and ideas</section>
+      <section class="mansonry">
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <label class="manonry-card-button"> Pinned </label>
+          <div class="mansonry-card-text">
+            <p>by
+                <a href="/author/james/">James Bryant</a></p>
+            <h3>One space, so many possibilities</h3>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <label class="manonry-card-button"> Pinned </label>
+          <div class="mansonry-card-text">
+            <p>by
+                <a href="/author/james/">James Bryant</a></p>
+            <h3>Make the open space open to more</h3>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <label class="manonry-card-button"> Pinned </label>
+          <div class="mansonry-card-text">
+            <p>by
+                <a href="/author/james/">James Bryant</a></p> 
+            
+            <h3>An open space for open mind</h3>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <label class="manonry-card-button"> Pinned </label>
+          <div class="mansonry-card-text">
+            <p>by 
+                <a href="/author/patricia/">Patricia Jenkins</a> 
+                and other authors
+            </p>
+            <h3>A comfortable spot for everyone</h3>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <label class="manonry-card-button"> Pinned </label>
+          <div class="mansonry-card-text">
+            <p>by
+                <a href="/author/margaret/">Margaret Robertson</a>
+            </p>
+            <h3>Anyone can hold the helm when the sea is calm</h3>
+          </div>
+        </article>
+      </section>
+      <section class="section-2">
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>CASE STUDY</label>
+            <label>OPEN SPACE</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>The perfect place that helps you get work done in peace</h3>
+            <p>by
+                <a href="/author/janet/">Janet Robertson</a>
+                &
+                <a href="/author/margaret/">Margaret Robertson</a></p>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>FURNITURE</label>
+            <label>PRODUCTIVITY</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>I work best when my space is filled with inspiration</h3>
+            <h4>
+              Haec et tu ita posuisti, et verba vestra sunt. Contemnit enim
+              disserendi elegantiam, confuse loquitur. Bona autem corporis huic
+              sunt, quod posterius posui, similiora.
+            </h4>
+            <p>by
+                <a href="/author/margaret/">Margaret Robertson</a>
+                &
+                <a href="/author/sean/">Sean Hamilton</a>
+            </p>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>CREATIVE</label>
+            <label>OPEN SPACE</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>The trick to getting more done is to have the freedom to roam around</h3>
+            <p>
+                by
+                <a href="/author/patricia/">Patricia Jenkins</a></p>
+          </div>
+        </article>
+      </section>
+      <div class="label-earlier-article">
+        <small> You really must see our earlier articles </small>
+      </div>
+      <section class="section-3">
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>CREATIVE</label>
+          </div>
+
+          <div class="mansonry-card-text">
+            <h3>Problems are not stop signs</h3>
+            <h4>
+              Guos hic sciebam esse, veni ut auferrem, quos legerem, dum essem
+              otiosus. At enim, qua in vita est aliquid mali, ea beata esse non
+              potest.
+            </h4>
+            <p>
+                by
+                <a href="/author/margaret/">Margaret Robertson</a>
+                &
+                <a href="/author/patricia/">Patricia Jenkins</a>
+
+            </p>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>CASE STUDY</label>
+            <label>CREATIVE</label>
+            <label>OPEN SPACE</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>Quiet time is the best time</h3>
+            <p>
+                by
+                <a href="/author/sean/">Sean Hamilton</a>
+            </p>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>CREATIVE</label>
+            <label>FURNITURE</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>Being unique is better than being perfect</h3>
+            <p>
+                by
+                <a href="/author/patricia/">Patricia Jenkins</a>
+            </p>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>CASE STUDY</label>
+            <label>OPEN SPACE</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>Anyone can hold the helm when the sea is calm</h3>
+            <h4>Quasi vero aut concedatur in omnibus stultis aeque magna esse.</h4>
+            <p>
+                by
+                <a href="/author/margaret/">Margaret Robertson</a>
+            </p>
+          </div>
+        </article>
+        <article class="mansonry-card">
+          <div class="mansonry-layer"></div>
+          <div class="manonry-card-button">
+            <label>PRODUCTIVITY</label>
+            <label>OPEN SPACE</label>
+          </div>
+          <div class="mansonry-card-text">
+            <h3>Change is always happening</h3>
+            <h4>Tertium autem omnibus aut maximis rebus iis, quae secundum naturam sint, fruentem vivere.       
+            </h4>
+            <p>
+                by
+                <a href="/author/janet/">Janet Robertson</a></p>
+          </div>
+        </article>
+        <div class="section-3-load-more">
+            <div class="section-3-load-more-wrapper">
+                <button>LOAD MORE</button>
+            </div>      
+      </div>
+      </section>
+
+      <section class="section-subscribe">
+        <form action="submit" class="subscribe-form">
+          <h3 class="subscribe-title">Subscribe to see What we're thinking</h3>
+          <div class="subscribed-ityped">
+            <span class="typing-label">Start you day with Maido</span>
+          </div>
+          <div class="section-subscribe-input-wrapper">
+            <input type="email" placeholder="Your email address" /><br />
+          </div>
+          <div class="btn-subscribe-wrapper">
+            <button class="btn-subscribe">SUBSCRIBE</button>
+          </div>
+        </form>
+      </section>
     </main>
-    <footer></footer>
-</body>
+    <footer class="footer-section">
+      <section class="footer-section-1">
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">features</a>
+          <a href="#">Style guide</a>
+          <a href="#">Contact</a>
+          <a href="#">Newsletter</a>
+          <a href="#">Demos</a>
+          <a href="#">Get Theme</a>
+        </nav>
+        <div class="footer-icons">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="#"><i class="fa fa-vimeo"></i></a>
+        </div>
+      </section>
+      <section class="footer-section-2">
+        <div class="footer-section-2-copyright">
+          <a href="https://maido-dark.fueko.net">Maido</a> © 2023. All Right
+          Reserved. Published with <a href="#">Ghost</a> &
+          <a href="#">Maido</a>.
+        </div>
+        <div class="footer-section-2-see-all-theme">
+          <button class="see-all-theme">
+            See all Themes <i class="fa fa-arrow-right"></i>
+          </button>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
