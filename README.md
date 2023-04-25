@@ -1,5 +1,5 @@
 # Responsive design
-This is a Maido clone project and uses flexbox and grid and has implemented animation and styling suing CSS/SASS.
+This is a Maido clone project and uses flexbox and grid and has implemented animation and styling using CSS/SASS.
 
 # Table of contents
 - Technologies
@@ -14,12 +14,12 @@ This is a Maido clone project and uses flexbox and grid and has implemented anim
 
 ```
 └───FS15_2-RESPONSIVE-DESIGN
+│───package.json
+│───README.md
 └───src
 │───index.html
 │───styles.css
 │───styles.css.map
-│───package.json
-│───README.md
 └───styles
    ├───components
    │    ├───_footer.scss
