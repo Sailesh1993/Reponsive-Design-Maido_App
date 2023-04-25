@@ -21,13 +21,14 @@ This is a Maido clone project and uses flexbox and grid and has implemented anim
     │───styles.css
     │───styles.css.map
     └───styles
-    ├───components
-    │    ├───_footer.scss
-    │    ├───_header.scss
-    │    ├───_main.scss
-    └───variables  
-       ├───_fonts.scss
-       └───_colors.scss
+        ├───style.scss
+        ├───components
+        │    ├───_footer.scss
+        │    ├───_header.scss
+        │    └───_main.scss
+        └───variables  
+            ├───_fonts.scss
+            └───_colors.scss
 ```
 
 # Result
