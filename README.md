@@ -31,7 +31,7 @@ This is a Maido clone project and uses flexbox and grid and has implemented anim
 ```
 
 # Result
-
+Deployment Link: [MaidoClone](https://sailesh1993.github.io/fs15_2-responsive-design/)
 
 
 
